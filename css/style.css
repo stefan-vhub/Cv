@@ -1,0 +1,444 @@
+/* 
+// FONTS // 
+// FONTS //
+// FONTS // 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+/* 
+// END FONTS // 
+// END FONTS // 
+// END FONTS //
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	background: #222222;
+	font-family: 'Quicksand', sans-serif;
+/*
+	background: url("../images/bg11.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+*/
+	color: white;
+}
+
+/* 
+// HEADER // 
+// HEADER //
+// HEADER //
+*/
+
+.header {
+	/* position: relative; */
+	width: 1200px;		
+	height: 50px;
+	font-family: 'Quicksand', sans-serif;
+	margin: 20px auto 0;
+}
+.fa-bars {
+	position: absolute;
+    right: 0;
+    display: none !important;
+    cursor: pointer;
+}
+
+.header .my-signature {
+	margin-left: 330px;
+	line-height: 50px;
+	width: 200px;
+	float: left;
+}
+
+.header .my-signature h1 {
+	letter-spacing: 4px; 
+	color: #b2b2b2;	
+	margin: 0px;
+}
+
+.header-nav {
+	margin-right: 65px;
+	float: right;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.header-nav li {
+	line-height: 50px;
+	float: left;
+	list-style: none;
+}
+
+.header-nav li a{
+	text-decoration: none;
+	padding: 10px 10px;
+	text-transform: lowercase; 
+	color: #b2b2b2;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+.header-nav li a:hover {
+	color:#4B5159;
+}
+
+/* 
+// END HEADER //
+// END HEADER // 
+// END HEADER //
+*/
+
+/* 
+// MAIN // 
+// MAIN //
+// MAIN //
+*/
+
+.main {
+	width: 1200px;
+	margin: 20px auto 0px;
+	overflow: hidden;
+}
+
+
+/* 
+// MAIN-LEFT // 
+// MAIN-LEFT // 
+// MAIN-LEFT // 
+*/
+.main-left {
+	position: fixed;
+	width: 290px;
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.main-left-header {
+	width: 100%;
+	background: #D14B4A;
+	padding: 20px; 
+}
+.main-left-header-img {
+	text-align: center;
+}
+.main-left-main {
+	text-align: center;
+}
+.main-left-main h2{
+	padding: 10px 0px 5px 0px;
+}
+.main-left-main p{
+	color: #C0A6A6;
+}
+.main-left-main a{
+	color: white;
+}
+.main-left-main i{
+	font-size: 25px ;
+	padding: 20px 10px 10px 10px;
+}
+
+.main-left-footer {
+	width: 100%;
+	background: #373737;
+	padding: 20px; 
+}
+.main-left-footer p {
+	text-align: center;
+	padding: 15px 0px;
+}
+.main-left-footer a {
+	color: white;
+	text-decoration: none;
+	padding: 8px 15px;
+	font-size: 20px;
+	background: black;
+	border-radius: 20px;
+}
+
+
+/* 
+// END MAIN-LEFT // 
+// END MAIN-LEFT // 
+// END MAIN-LEFT // 
+*/
+
+/* 
+// MAIN-CENTER // 
+// MAIN-CENTER // 
+// MAIN-CENTER // 
+*/
+
+.main-center {
+	width: 67%;
+	margin-left: 327px;
+	float: left;
+}
+
+/* 
+// MAIN  ABOT ME// 
+// MAIN  ABOT ME// 
+// MAIN  ABOT ME// 
+*/
+
+.main-center h3 {
+	padding-bottom: 50px;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #D14B4A;
+}
+.main-center span {
+	font-weight: bold;
+	color: #D14B4A;
+}
+.cont-main-center {
+	background: #373737;
+	padding: 40px 50px;
+	margin-bottom: 25px;
+}
+.abouMe {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.abouMe h4 {
+	font-size: 21px;
+	margin-bottom: 5px;
+}
+.abouMe p {
+	padding-bottom: 5px;
+	line-height: 25px;
+	color: white;
+}
+.abouMe-signature {
+	text-align: right;
+	font-size: 25px;
+	padding-bottom: 15px;
+	color: #D14B4A !important;
+}
+.aboutMeMore {
+	padding-top: 20px;
+}
+.aboutMeMore .pers-info {
+	width: 100%;
+}
+.pers-info p {
+	padding: 5px 0px;
+}
+.cont-main-center .edu-title {
+	color: white;
+	font-size: 18px;
+}
+.cont-main-center li {
+	padding-bottom: 10px;
+}
+/*
+// END MAIN  ABOT ME// 
+// END MAIN  ABOT ME// 
+// END MAIN  ABOT ME// 
+*/
+
+/* 
+// END MAIN-CENTER //
+// END MAIN-CENTER // 
+// END MAIN-CENTER // 
+ */
+
+/* 
+// MAIN-RIGHT //
+// MAIN-RIGHT // 
+// MAIN-RIGHT // 
+*/
+
+.container-main-right {	
+	float: right;
+	width: 60px;
+}
+.main-right {
+	position: fixed;
+	width: 60px;
+}
+.main-right p{
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.main-right i{
+	font-size: 30px;
+	padding: 20px 0px;
+	color: white;
+}
+.main-right img:hover {
+	opacity: 0.9 !important;
+}
+.main-right a:hover{
+	opacity: 0.5;
+}
+.main-right span {
+	position: absolute;
+	bottom: 20px;
+	left: 70px;
+	text-align: right;
+	padding: 7px 10px 7px 10px;
+	background: #373737;
+	border-radius: 6px;
+	opacity: 1 !important;
+	display: none;
+}
+.main-right .img span {
+	bottom: 14px;
+}
+
+.main-right p:hover span {
+	display: block;
+}
+
+/* 
+// END MAIN // 
+// END MAIN // 
+// END MAIN // 
+*/
+
+
+.footer {
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 25px 0;
+	font-size: 20px;
+}
+/*
+// MAX-WIDTH:1200PX //
+// MAX-WIDTH:1200PX //
+// MAX-WIDTH:1200PX //
+*/
+
+@media only screen and (max-width:1200px) {
+	.header {
+		width: 100%;
+	}
+	.header .my-signature {
+		margin-left: 10px;
+		font-size: 20px;
+	}
+	
+	.main {
+		width: 100%;
+	}
+}
+
+/*
+// MAX-WIDTH:1000PX //
+// MAX-WIDTH:1000PX //
+// MAX-WIDTH:1000PX //
+*/
+
+@media only screen and (max-width:1000px) {
+	.header-nav {
+		margin-right: 10px;
+	}
+	.container-main-right {
+		display: none;
+	}
+	
+	.main-left {
+		width: 27%;
+	}
+	
+	.main-center {
+		width: 68%;
+		float: right;
+	}
+}
+
+
+/*
+// MAX-WIDTH:900PX //
+// MAX-WIDTH:900PX //
+// MAX-WIDTH:900PX //
+*/
+
+@media only screen and (max-width:900px) {
+	.header {
+		background: #373737;
+		height: 70px;
+		margin-top: 0px; 
+	}
+	.header .my-signature h1 {
+		letter-spacing: 2px;
+		line-height: 70px;
+	}
+	.header-nav {
+		width: 100%;
+		float: left;
+		display: none;
+	}
+	.show {display: block;}
+	.header-nav li {
+		width: 100%;
+		padding-left: 40px;
+	}
+	.fa-bars {
+		display: block !important;
+		position: absolute;
+		top: 0;
+		right: 10px;
+		font-size: 35px !important;
+		color: #b2b2b2;
+		line-height: 70px !important; 
+	}
+	.main {
+		margin: 0px;
+	}
+	.main-left {
+		position: static;
+		width: 100%;
+		float: none;
+		font-family: 'Quicksand', sans-serif;
+		margin-bottom: 25px;
+	}
+	.main-center {
+		width: 100%;
+		margin-left: 0px;
+		float: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
